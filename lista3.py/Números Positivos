@@ -1,0 +1,13 @@
+# Inicializa o contador de valores positivos
+contador_positivos = 0
+
+# Loop para ler os seis valores
+for _ in range(6):
+    valor = float(input())
+
+    # Verifica se o valor é positivo e diferente de zero
+    if valor > 0:
+        contador_positivos += 1
+
+# Imprime a quantidade de valores positivos
+print(contador_positivos, "valores positivos")

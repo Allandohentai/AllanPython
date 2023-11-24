@@ -1,0 +1,11 @@
+# Leitura de entrada
+X = int(input())
+
+# Verificação e cálculo do menor número par maior que X
+if X % 2 == 0:
+    resultado = X + 2
+else:
+    resultado = X + 1
+
+# Impressão da resposta
+print(resultado)
